@@ -1,0 +1,63 @@
+  [1m[36m (113.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (9.8ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20140625230003)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (51.5ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "username" character varying(255), "password_hash" character varying(255), "password_salt" character varying(255), "email" character varying(255)) [0m
+  [1m[35mSQL (14.9ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140625230003"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to CreateTips (20140625230316)
+  [1m[35m (16.1ms)[0m  BEGIN
+  [1m[36m (3.6ms)[0m  [1mCREATE TABLE "tips" ("id" serial primary key, "user_id" integer, "breakout_id" integer, "content" text) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140625230316"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to CreateBreakouts (20140625230648)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (2.1ms)[0m  [1mCREATE TABLE "breakouts" ("id" serial primary key, "user_id" integer, "title" character varying(255)) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140625230648"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (169.4ms)[0m  [1mDROP DATABASE IF EXISTS "intro_to_rails_test"[0m
+  [1m[35m (552.9ms)[0m  CREATE DATABASE "intro_to_rails_test" ENCODING = 'utf8'
+  [1m[36mSQL (75.5ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (4.7ms)[0m  CREATE TABLE "breakouts" ("id" serial primary key, "user_id" integer, "title" character varying(255)) 
+  [1m[36m (3.2ms)[0m  [1mCREATE TABLE "tips" ("id" serial primary key, "user_id" integer, "breakout_id" integer, "content" text) [0m
+  [1m[35m (3.4ms)[0m  CREATE TABLE "users" ("id" serial primary key, "username" character varying(255), "password_hash" character varying(255), "password_salt" character varying(255), "email" character varying(255)) 
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.2ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140625230648')
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140625230003')[0m
+  [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140625230316')
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTipVotes (20140625232808)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (3.3ms)[0m  [1mCREATE TABLE "tip_votes" ("id" serial primary key, "user_id" integer, "tip_id" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (1.0ms)[0m  CREATE UNIQUE INDEX  "index_tip_votes_on_user_id_and_tip_id" ON "tip_votes"  ("user_id", "tip_id")
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20140625232808"]]
+  [1m[35m (1.0ms)[0m  COMMIT
+Migrating to CreateBreakoutVotes (20140625233227)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.9ms)[0m  CREATE TABLE "breakout_votes" ("id" serial primary key, "user_id" integer, "breakout_id" integer, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (0.9ms)[0m  [1mCREATE UNIQUE INDEX  "index_breakout_votes_on_user_id_and_breakout_id" ON "breakout_votes"  ("user_id", "breakout_id")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140625233227"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (118.3ms)[0m  [1mDROP DATABASE IF EXISTS "intro_to_rails_test"[0m
+  [1m[35m (302.7ms)[0m  CREATE DATABASE "intro_to_rails_test" ENCODING = 'utf8'
+  [1m[36mSQL (0.4ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (4.4ms)[0m  CREATE TABLE "breakout_votes" ("id" serial primary key, "user_id" integer, "breakout_id" integer, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (1.2ms)[0m  [1mCREATE UNIQUE INDEX  "index_breakout_votes_on_user_id_and_breakout_id" ON "breakout_votes" USING btree ("user_id", "breakout_id")[0m
+  [1m[35m (3.0ms)[0m  CREATE TABLE "breakouts" ("id" serial primary key, "user_id" integer, "title" character varying(255)) 
+  [1m[36m (2.5ms)[0m  [1mCREATE TABLE "tip_votes" ("id" serial primary key, "user_id" integer, "tip_id" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (1.3ms)[0m  CREATE UNIQUE INDEX  "index_tip_votes_on_user_id_and_tip_id" ON "tip_votes" USING btree ("user_id", "tip_id")
+  [1m[36m (3.6ms)[0m  [1mCREATE TABLE "tips" ("id" serial primary key, "user_id" integer, "breakout_id" integer, "content" text) [0m
+  [1m[35m (3.3ms)[0m  CREATE TABLE "users" ("id" serial primary key, "username" character varying(255), "password_hash" character varying(255), "password_salt" character varying(255), "email" character varying(255)) 
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.3ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140625233227')
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140625230003')[0m
+  [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140625230316')
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140625230648')[0m
+  [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140625232808')
