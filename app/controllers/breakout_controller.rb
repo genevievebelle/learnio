@@ -1,2 +1,0 @@
-class BreakoutController < ApplicationController
-end

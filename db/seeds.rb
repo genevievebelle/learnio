@@ -1,7 +1,19 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+require 'factory_girl_rails'
+10.times { FactoryGirl.create :tip}
+10.times { FactoryGirl.create :user}
+10.times { FactoryGirl.create :breakout}
+
+Tip.all.each do |tip|
+  User.all.each do |user|
+    TipVote.create(tip_id: tip.id, user_id: user.id) if Random.rand<0.2
+  end
+end
+
+Tip.all.each do |tip|
+  Breakout.all.sample.tips << tip if Random.rand<0.8
+  User.all.sample.tips << tip
+end
+
+
+
+

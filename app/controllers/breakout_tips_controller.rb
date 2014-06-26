@@ -1,0 +1,2 @@
+class BreakoutTipsController < ApplicationController
+end

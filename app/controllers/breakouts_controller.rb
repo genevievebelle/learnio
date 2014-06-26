@@ -1,0 +1,2 @@
+class BreakoutsController < ApplicationController
+end
