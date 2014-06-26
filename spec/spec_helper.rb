@@ -11,7 +11,7 @@ Dir[Rails.root.join("spec/support/**/*.rb")].each {|f| require f}
 
 RSpec.configure do |config|
   config.include Capybara::DSL
-  config.include AuthenticationHelpers
+  # config.include AuthenticationHelpers
   config.mock_with :rspec
 
   config.before(:suite) do
