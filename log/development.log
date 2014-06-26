@@ -61,3 +61,61 @@ Migrating to CreateBreakoutVotes (20140625233227)
   [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140625230316')
   [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140625230648')[0m
   [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140625232808')
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 16:25:55 +1200
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/railties-4.1.1/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
+Completed 200 OK in 73ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 17:14:31 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1585ms (Views: 1584.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/breakout.css?body=1" for 127.0.0.1 at 2014-06-26 17:14:32 +1200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-26 17:14:32 +1200
+
+
+Started GET "/assets/tip.css?body=1" for 127.0.0.1 at 2014-06-26 17:14:32 +1200
+
+
+Started GET "/assets/breakout_tip.css?body=1" for 127.0.0.1 at 2014-06-26 17:14:32 +1200
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-26 17:14:32 +1200
+
+
+Started GET "/assets/breakout.js?body=1" for 127.0.0.1 at 2014-06-26 17:14:32 +1200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 17:14:32 +1200
+
+
+Started GET "/assets/breakout_tip.js?body=1" for 127.0.0.1 at 2014-06-26 17:14:32 +1200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-26 17:14:32 +1200
+
+
+Started GET "/assets/tip.js?body=1" for 127.0.0.1 at 2014-06-26 17:14:32 +1200
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-26 17:14:32 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 17:14:32 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 17:14:32 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 17:14:32 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 17:14:32 +1200

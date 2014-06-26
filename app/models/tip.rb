@@ -4,4 +4,9 @@ class Tip < ActiveRecord::Base
 
   belongs_to :breakout
   belongs_to :user
+
+  def get_loose_tips
+    Tips.where(tip.breakout_id == nil)
+  end
+
 end

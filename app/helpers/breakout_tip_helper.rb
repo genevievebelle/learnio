@@ -1,0 +1,2 @@
+module BreakoutTipHelper
+end
