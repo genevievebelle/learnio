@@ -8,7 +8,7 @@ describe TipsController do
     @return = [tip1, tip2]
     @return_json = "[{\"id\":1003,\"content\":\"I am a tip\",\"vote_count\":0},{\"id\":1004,\"content\":\"What a great tip\",\"vote_count\":0}]"
     Tip.stub(:where).and_return(@return)
-    get :index
+    get :index, breakout: 'none'
   end
 
   it 'gets to index' do

@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/codebrew/backbone-rails.git
+  revision: dc1a49f46cfb554c989ee449794f54bea2c3ef32
+  specs:
+    rails-backbone (1.1.0)
+      coffee-script
+      ejs
+      jquery-rails
+      railties
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -52,6 +62,7 @@ GEM
     coffee-script-source (1.7.0)
     database_cleaner (1.2.0)
     diff-lcs (1.2.5)
+    ejs (1.1.1)
     erubis (2.7.0)
     execjs (2.2.0)
     factory_girl (4.4.0)
@@ -72,6 +83,11 @@ GEM
     guard-rspec (3.1.0)
       guard (>= 1.8)
       rspec (~> 2.13)
+    handlebars_assets (0.17)
+      execjs (>= 1.2.9)
+      multi_json
+      sprockets (>= 2.0.3)
+      tilt
     hike (1.2.3)
     i18n (0.6.10)
     jbuilder (2.1.1)
@@ -201,10 +217,12 @@ DEPENDENCIES
   faker
   guard
   guard-rspec
+  handlebars_assets
   jbuilder (~> 2.0)
   jquery-rails
   pg
   rails (= 4.1.1)
+  rails-backbone!
   rspec-rails (~> 2.0)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
