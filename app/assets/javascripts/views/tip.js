@@ -3,46 +3,78 @@ var TipView = Backbone.View.extend({
   className: "tip",
 
   render: function() {
-    this.el.innerHTML = this.model.get("content");
+    this.el.innerHTML = this.model.get("content") + ", votes: " + this.model.get("vote_count");
+    this.el.id = this.model.get("id");
+
     return this;
   }
 });
 
-var TipsCollectionView = Backbone.View.extend({
-  el: '#loose-tips',
+var UpdatingTipView = TipView.extend({
+  initialize : function(options) {
+    this.render = _.bind(this.render, this);
+    this.model.bind('change', this.render);
+  }
+});
 
+var TipCollectionView = Backbone.View.extend({
   initialize : function() {
-    var that = this;
+    _(this).bindAll('add', 'remove');
+    this._tipViews = [];
+    this.collection.each(this.add);
+    this.collection.bind('add', this.add);
+    this.collection.bind('remove', this.remove);
+    this.collection.bind("reset", _.bind(this.render, this));
+  },
 
-    var coll = new TipsCollection();
-    coll.fetch({success: function(){that.render();}});
+  add : function(tip) {
+    var tipView = new UpdatingTipView({
+        model : tip,
+        tagName : 'li'
+    });
+
+    this._tipViews.push(tipView);
+
+    if (this._rendered) {
+      $(this.el).append(tipView.render().el);
+    }
 
   },
 
+  remove : function(model) {
+    var viewToRemove = _(this._tipViews).select(function(v) { return v.model === model; })[0];
+    this._tipViews = _(this._tipViews).without(viewToRemove);
+
+    if (this._rendered) $(viewToRemove.el).remove();
+  },
+
+
   render : function() {
-    this.$el.html('Tips');
-    return this
+    this._rendered = true;
+
+    $(this.el).empty();
+
+    _(this._tipViews).each(function(dv) {
+      this.$('ul.loose-tips').append(dv.render().el);
+    });
+
+    return this;
   }
 });
 
 
-tip = new Tip ({
-  content: "I am a tippy tip"
+tips = new TipCollection();
+tips.fetch({ data: {breakout: 'none'} }).then(function() {
+  tips.save
+
+  tipCollectionView = new TipCollectionView({ collection: tips, el : $('ul.loose-tips')[0] });
+
+  tipCollectionView.render();
+
+  tips.models[0].set({content: 'different'});
 });
 
-tip.set({content : 'New content'})
-alert( tip.get('content') );
 
-tips = new TipsCollection();
-tips.fetch({ data: {breakout: 'none'} });
-
-tips.save
-
-tipView = new TipView ({
-  model: tip
-});
-
-var tipV = tipView.render().el
 
 
 

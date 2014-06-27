@@ -1,15 +1,17 @@
 var Tip = Backbone.Model.extend({
   initialize: function(){
-    alert("Making new tip!");
   },
     defaults: {
       id: 0,
       content: 'Default content',
-      voteCount: 0
+      vote_count: 0
     }
 });
 
-var TipsCollection = Backbone.Collection.extend({
+var TipCollection = Backbone.Collection.extend({
+  comparator: function(item) {
+    return -item.get('vote_count');
+  },
   model : Tip,
   url: '/tips'
 });
