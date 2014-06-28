@@ -7,7 +7,6 @@ var TipView = Backbone.View.extend({
     this.el.id = this.model.get("id");
     $(this.el).draggable( {
       containment: 'document',
-      snap: true,
       snapMode: 'inner'
       } );
     return this;
