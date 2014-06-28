@@ -30,6 +30,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'active_model_serializers'
+gem 'i18n', '0.6.9'
 
 group :test, :development do
   gem "rspec-rails", "~> 2.0"

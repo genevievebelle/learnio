@@ -1,13 +1,11 @@
-var getAndViewLooseTips = function() {
-  tips = new TipCollection();
-  tips.fetch({ data: {breakout: 'none'} }).then(function() {
-    tips.save
-    tipCollectionView = createViewObjectAndView(tips, $('ul.loose-tips')[0] );
-    tips.models[0].set({content: 'different'});
-  });
-  return tips
-}
 
 
-getAndViewLooseTips()
+
+
+
+bc = new BreakoutCollection()
+bc.fetch().done(function() {
+  bcv = new BreakoutCollectionView({el : $( ".breakout-list" ), collection : bc});}
+);
+
 

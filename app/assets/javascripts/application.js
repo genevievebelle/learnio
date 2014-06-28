@@ -16,8 +16,8 @@
 //= require handlebars
 //= require underscore
 //= require backbone
+//= require backbone.collectionView
 //= require_tree ./templates
 //= require_tree ./models
 //= require_tree ./views
 //= require_tree ./controller
-
