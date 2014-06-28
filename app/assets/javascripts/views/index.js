@@ -1,6 +1,6 @@
-$( init );
+$( setupDroppable );
 
-function init() {
+function setupDroppable() {
 
   $('.tips-container').droppable( {
     drop: handleDropEvent,
@@ -10,5 +10,6 @@ function init() {
 }
 
 var handleDropEvent = function( event, ui ) {
-  alert( 'The square with ID "' + ui.draggable.attr('id') + '" was dropped onto me!' );
-}
+  // alert( 'The square with ID "' + ui.draggable.attr('id') + '" was dropped onto me!' );
+  alert($(this).attr('dataid'));
+};
