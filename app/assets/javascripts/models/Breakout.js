@@ -6,7 +6,7 @@ var Breakout = Backbone.Model.extend({
         id: 0,
         title: 'Default title',
         sum_tip_votes: 0
-      }
+      };
     }
 });
 
@@ -16,4 +16,4 @@ var BreakoutCollection = Backbone.Collection.extend({
   },
   model: Breakout,
   url: '/breakouts'
-})
+});
