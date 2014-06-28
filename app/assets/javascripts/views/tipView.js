@@ -27,6 +27,7 @@ var TipCollectionView = Backbone.View.extend({
     this.collection.each(this.add);
     this.collection.bind('add', this.add);
     this.collection.bind('remove', this.remove);
+    this.collection.bind('reset', this.render);
   },
 
   add : function(tip) {

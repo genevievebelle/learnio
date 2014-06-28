@@ -1,0 +1,3802 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-28 22:33:25 +1200
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 805ms (Views: 795.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:26 +1200
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:26 +1200
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:26 +1200
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/breakout.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/breakout_tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/backbone.collectionView.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/models/Breakout.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/views/breakoutView.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/views/tipView.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:27 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:28 +1200
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:28 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:28 +1200
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:28 +1200
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:28 +1200
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:28 +1200
+
+
+Started GET "/assets/models/Tip.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:28 +1200
+
+
+Started GET "/assets/views/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:28 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:28 +1200
+
+
+Started GET "/assets/controller/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:33:28 +1200
+
+
+Started GET "/tips?breakout=none" for 127.0.0.1 at 2014-06-28 22:33:28 +1200
+Processing by TipsController#index as JSON
+  Parameters: {"breakout"=>"none"}
+  [1m[35mTip Load (1.0ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" IS NULL
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 1]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 8]]
+Completed 200 OK in 60ms (Views: 25.9ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/breakouts" for 127.0.0.1 at 2014-06-28 22:33:28 +1200
+Processing by BreakoutsController#index as JSON
+  [1m[36mBreakout Load (1.0ms)[0m  [1mSELECT "breakouts".* FROM "breakouts"[0m
+  [1m[35mTip Load (0.6ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 1]]
+  [1m[36mTip Load (0.4ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 2]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 2]]
+  [1m[36mTip Load (0.5ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 3]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 6]]
+  [1m[36mTip Load (0.4ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 4]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 4]]
+  [1m[36mTip Load (0.4ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 5]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 3]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 10]]
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 6]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 9]]
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 7]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 7]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 8]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 5]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 9]]
+  [1m[36mTip Load (0.2ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 10]]
+Completed 200 OK in 128ms (Views: 91.5ms | ActiveRecord: 12.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 132ms (Views: 131.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/breakout_tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/breakout.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:27 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/models/Breakout.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/views/breakoutView.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/backbone.collectionView.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/models/Tip.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/views/tipView.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/controller/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/assets/views/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+
+
+Started GET "/tips?breakout=none" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+Processing by TipsController#index as JSON
+  Parameters: {"breakout"=>"none"}
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" IS NULL
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 1]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 8]]
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/breakouts" for 127.0.0.1 at 2014-06-28 22:36:28 +1200
+Processing by BreakoutsController#index as JSON
+  [1m[36mBreakout Load (0.7ms)[0m  [1mSELECT "breakouts".* FROM "breakouts"[0m
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 1]]
+  [1m[36mTip Load (0.4ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 2]]
+  [1m[36mTip Load (0.2ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 3]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 6]]
+  [1m[36mTip Load (0.2ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 4]]
+  [1m[36mTip Load (0.2ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 3]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 10]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 6]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 9]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 7]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 7]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 8]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 5]]
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 9]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 10]]
+Completed 200 OK in 24ms (Views: 17.5ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/breakout.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/breakout_tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/backbone.collectionView.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/models/Breakout.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/models/Tip.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/views/tipView.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/views/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/views/breakoutView.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/controller/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+
+
+Started GET "/tips?breakout=none" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+Processing by TipsController#index as JSON
+  Parameters: {"breakout"=>"none"}
+  [1m[35mTip Load (0.6ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" IS NULL
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 1]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 8]]
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/breakouts" for 127.0.0.1 at 2014-06-28 22:36:34 +1200
+Processing by BreakoutsController#index as JSON
+  [1m[36mBreakout Load (0.5ms)[0m  [1mSELECT "breakouts".* FROM "breakouts"[0m
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 1]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 2]]
+  [1m[36mTip Load (0.2ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 3]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 6]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 4]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 4]]
+  [1m[36mTip Load (0.4ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 5]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 3]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 10]]
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 6]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 9]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 7]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 7]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 8]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 5]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 9]]
+  [1m[36mTip Load (0.1ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 10]]
+Completed 200 OK in 23ms (Views: 16.6ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-28 22:38:49 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 183ms (Views: 182.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/breakout.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/breakout_tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/backbone.collectionView.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/models/Breakout.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/models/Tip.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/views/breakoutView.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/views/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/views/tipView.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/controller/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+
+
+Started GET "/tips?breakout=none" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+Processing by TipsController#index as JSON
+  Parameters: {"breakout"=>"none"}
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" IS NULL
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 1]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 8]]
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/breakouts" for 127.0.0.1 at 2014-06-28 22:38:50 +1200
+Processing by BreakoutsController#index as JSON
+  [1m[36mBreakout Load (0.5ms)[0m  [1mSELECT "breakouts".* FROM "breakouts"[0m
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 1]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 2]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 2]]
+  [1m[36mTip Load (0.5ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 3]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 6]]
+  [1m[36mTip Load (0.4ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 4]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 4]]
+  [1m[36mTip Load (0.4ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 5]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 3]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 10]]
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 6]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 9]]
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 7]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 7]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 8]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 5]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 9]]
+  [1m[36mTip Load (0.2ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 10]]
+Completed 200 OK in 30ms (Views: 22.1ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 177ms (Views: 175.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/breakout.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/breakout_tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:13 +1200
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/backbone.collectionView.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/models/Breakout.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/models/Tip.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/views/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/views/breakoutView.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/views/tipView.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/controller/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+
+
+Started GET "/tips?breakout=none" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+Processing by TipsController#index as JSON
+  Parameters: {"breakout"=>"none"}
+  [1m[35mTip Load (0.5ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" IS NULL
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 8]]
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/breakouts" for 127.0.0.1 at 2014-06-28 22:39:14 +1200
+Processing by BreakoutsController#index as JSON
+  [1m[36mBreakout Load (0.8ms)[0m  [1mSELECT "breakouts".* FROM "breakouts"[0m
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 1]]
+  [1m[36mTip Load (4.6ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 2]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 2]]
+  [1m[36mTip Load (3.7ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 3]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 6]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 4]]
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 4]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 5]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 3]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 10]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 6]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 9]]
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 7]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 7]]
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 8]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 5]]
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 9]]
+  [1m[36mTip Load (0.2ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 10]]
+Completed 200 OK in 45ms (Views: 29.1ms | ActiveRecord: 15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 182ms (Views: 181.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/breakout.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/breakout_tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/backbone.collectionView.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/models/Breakout.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/models/Tip.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/views/breakoutView.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/views/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/views/tipView.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/controller/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+
+
+Started GET "/tips?breakout=none" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+Processing by TipsController#index as JSON
+  Parameters: {"breakout"=>"none"}
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" IS NULL
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 1]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 8]]
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/breakouts" for 127.0.0.1 at 2014-06-28 22:39:28 +1200
+Processing by BreakoutsController#index as JSON
+  [1m[36mBreakout Load (0.8ms)[0m  [1mSELECT "breakouts".* FROM "breakouts"[0m
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 1]]
+  [1m[36mTip Load (0.4ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 2]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 2]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 3]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 6]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 4]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 4]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 5]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 3]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 10]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 6]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 9]]
+  [1m[35mTip Load (0.6ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 7]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 7]]
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 8]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 5]]
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 9]]
+  [1m[36mTip Load (0.5ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 10]]
+Completed 200 OK in 31ms (Views: 22.5ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 139ms (Views: 138.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/breakout.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/breakout_tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:39 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/backbone.collectionView.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/models/Breakout.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/models/Tip.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/views/breakoutView.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/views/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/views/tipView.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/controller/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+
+
+Started GET "/tips?breakout=none" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+Processing by TipsController#index as JSON
+  Parameters: {"breakout"=>"none"}
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" IS NULL
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 1]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 8]]
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/breakouts" for 127.0.0.1 at 2014-06-28 22:39:40 +1200
+Processing by BreakoutsController#index as JSON
+  [1m[36mBreakout Load (0.6ms)[0m  [1mSELECT "breakouts".* FROM "breakouts"[0m
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 1]]
+  [1m[36mTip Load (3.2ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 2]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 2]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 3]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 6]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 4]]
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 4]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 5]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 3]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 10]]
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 6]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 9]]
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 7]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 7]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 8]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 5]]
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 9]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 10]]
+Completed 200 OK in 31ms (Views: 20.7ms | ActiveRecord: 9.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 132ms (Views: 131.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/breakout.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/breakout_tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/backbone.collectionView.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/models/Breakout.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/models/Tip.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/views/breakoutView.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/views/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/views/tipView.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/controller/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+
+
+Started GET "/tips?breakout=none" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+Processing by TipsController#index as JSON
+  Parameters: {"breakout"=>"none"}
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" IS NULL
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 1]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 8]]
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/breakouts" for 127.0.0.1 at 2014-06-28 22:39:51 +1200
+Processing by BreakoutsController#index as JSON
+  [1m[36mBreakout Load (0.9ms)[0m  [1mSELECT "breakouts".* FROM "breakouts"[0m
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 1]]
+  [1m[36mTip Load (0.5ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 2]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 2]]
+  [1m[36mTip Load (0.5ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 3]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 6]]
+  [1m[36mTip Load (0.4ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 4]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 4]]
+  [1m[36mTip Load (0.6ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 5]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 3]]
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 10]]
+  [1m[35mTip Load (0.5ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 6]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 9]]
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 7]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 7]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 8]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 5]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 9]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 10]]
+Completed 200 OK in 31ms (Views: 21.5ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-28 22:46:59 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 558ms (Views: 556.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/breakout.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/breakout_tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/models/Tip.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/views/breakoutView.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/backbone.collectionView.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/models/Breakout.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/views/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/controller/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/assets/views/tipView.js?body=1" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+
+
+Started GET "/tips?breakout=none" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+Processing by TipsController#index as JSON
+  Parameters: {"breakout"=>"none"}
+  [1m[35mTip Load (0.5ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" IS NULL
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 8]]
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/breakouts" for 127.0.0.1 at 2014-06-28 22:47:00 +1200
+Processing by BreakoutsController#index as JSON
+  [1m[36mBreakout Load (0.5ms)[0m  [1mSELECT "breakouts".* FROM "breakouts"[0m
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 1]]
+  [1m[36mTip Load (0.4ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 2]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 2]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 3]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 6]]
+  [1m[36mTip Load (0.4ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 4]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 4]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 5]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 3]]
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 10]]
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 6]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 9]]
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 7]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 7]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 8]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 5]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 9]]
+  [1m[36mTip Load (0.2ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 10]]
+Completed 200 OK in 26ms (Views: 19.0ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-28 22:48:45 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 564ms (Views: 563.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/breakout.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/breakout_tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:46 +1200
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:47 +1200
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:47 +1200
+
+
+Started GET "/assets/backbone.collectionView.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:47 +1200
+
+
+Started GET "/assets/models/Breakout.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:47 +1200
+
+
+Started GET "/assets/models/Tip.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:47 +1200
+
+
+Started GET "/assets/views/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:47 +1200
+
+
+Started GET "/assets/views/breakoutView.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:47 +1200
+
+
+Started GET "/assets/views/tipView.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:47 +1200
+
+
+Started GET "/assets/controller/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:47 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:47 +1200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 128ms (Views: 127.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/breakout.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/breakout_tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:55 +1200
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/backbone.collectionView.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/models/Breakout.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/models/Tip.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/views/breakoutView.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/views/tipView.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/views/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/controller/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+
+
+Started GET "/breakouts" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+Processing by BreakoutsController#index as JSON
+  [1m[35mBreakout Load (0.5ms)[0m  SELECT "breakouts".* FROM "breakouts"
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 1]]
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 2]]
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 3]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 6]]
+  [1m[35mTip Load (0.5ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 4]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 4]]
+  [1m[35mTip Load (5.5ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 5]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 3]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 10]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 6]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 9]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 7]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 7]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 8]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 5]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 9]]
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 10]]
+Completed 200 OK in 38ms (Views: 24.7ms | ActiveRecord: 11.6ms)
+
+
+Started GET "/tips?breakout=none" for 127.0.0.1 at 2014-06-28 22:48:56 +1200
+Processing by TipsController#index as JSON
+  Parameters: {"breakout"=>"none"}
+  [1m[36mTip Load (0.4ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" IS NULL[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 8]]
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-28 22:54:33 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 595ms (Views: 594.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/breakout.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/breakout_tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/backbone.collectionView.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/models/Breakout.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/models/Tip.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/views/breakoutView.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/views/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/views/tipView.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/controller/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+
+
+Started GET "/tips?breakout=none" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+Processing by TipsController#index as JSON
+  Parameters: {"breakout"=>"none"}
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" IS NULL
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 1]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 8]]
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/breakouts" for 127.0.0.1 at 2014-06-28 22:54:34 +1200
+Processing by BreakoutsController#index as JSON
+  [1m[36mBreakout Load (0.9ms)[0m  [1mSELECT "breakouts".* FROM "breakouts"[0m
+  [1m[35mTip Load (0.6ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 1]]
+  [1m[36mTip Load (0.4ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 2]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 3]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 6]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 4]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 4]]
+  [1m[36mTip Load (0.4ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 5]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 3]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 10]]
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 6]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 9]]
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 7]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 7]]
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 8]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 5]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 9]]
+  [1m[36mTip Load (0.2ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 10]]
+Completed 200 OK in 35ms (Views: 26.4ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-28 22:54:37 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:37 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:37 +1200
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:37 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/breakout.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/breakout_tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/backbone.collectionView.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/models/Breakout.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/models/Tip.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/views/breakoutView.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/views/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/views/tipView.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/controller/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+
+
+Started GET "/breakouts" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+Processing by BreakoutsController#index as JSON
+  [1m[35mBreakout Load (0.5ms)[0m  SELECT "breakouts".* FROM "breakouts"
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 1]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 2]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 3]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 6]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 4]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 5]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 3]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 10]]
+  [1m[36mTip Load (0.2ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 6]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 9]]
+  [1m[36mTip Load (0.2ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 7]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 7]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 8]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 5]]
+  [1m[36mTip Load (0.2ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 9]]
+  [1m[35mTip Load (0.2ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 10]]
+Completed 200 OK in 68ms (Views: 14.0ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/tips?breakout=none" for 127.0.0.1 at 2014-06-28 22:54:38 +1200
+Processing by TipsController#index as JSON
+  Parameters: {"breakout"=>"none"}
+  [1m[36mTip Load (0.4ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" IS NULL[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 8]]
+Completed 200 OK in 5ms (Views: 2.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 184ms (Views: 183.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/breakout.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/breakout_tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/tip.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/backbone.collectionView.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/models/Breakout.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/models/Tip.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/views/breakoutView.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/views/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/views/tipView.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/assets/controller/index.js?body=1" for 127.0.0.1 at 2014-06-28 22:55:07 +1200
+
+
+Started GET "/tips?breakout=none" for 127.0.0.1 at 2014-06-28 22:55:08 +1200
+Processing by TipsController#index as JSON
+  Parameters: {"breakout"=>"none"}
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" IS NULL
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 1]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 8]]
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/breakouts" for 127.0.0.1 at 2014-06-28 22:55:08 +1200
+Processing by BreakoutsController#index as JSON
+  [1m[36mBreakout Load (0.5ms)[0m  [1mSELECT "breakouts".* FROM "breakouts"[0m
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 1]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 2]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 3]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 6]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 4]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 5]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 3]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 10]]
+  [1m[35mTip Load (0.5ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 6]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 9]]
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 7]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 7]]
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 8]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 5]]
+  [1m[35mTip Load (0.4ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 9]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 10]]
+Completed 200 OK in 29ms (Views: 21.3ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 01:22:07 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 210ms (Views: 206.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/breakout.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/breakout_tip.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/tip.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:08 +1200
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/backbone.collectionView.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/models/Breakout.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/models/Tip.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/views/breakoutView.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/views/index.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/views/tipView.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/controller/index.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+
+
+Started GET "/tips?breakout=none" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+Processing by TipsController#index as JSON
+  Parameters: {"breakout"=>"none"}
+  [1m[35mTip Load (0.8ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" IS NULL
+  [1m[36m (2.7ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 1]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 8]]
+Completed 200 OK in 10ms (Views: 5.1ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/breakouts" for 127.0.0.1 at 2014-06-29 01:22:09 +1200
+Processing by BreakoutsController#index as JSON
+  [1m[36mBreakout Load (0.6ms)[0m  [1mSELECT "breakouts".* FROM "breakouts"[0m
+  [1m[35mTip Load (0.7ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 1]]
+  [1m[36mTip Load (5.0ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 2]]
+  [1m[35m (5.4ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 2]]
+  [1m[36mTip Load (0.5ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 3]]
+  [1m[35m (1.7ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 6]]
+  [1m[36mTip Load (0.3ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 4]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 4]]
+  [1m[36mTip Load (0.4ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 5]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1  [["tip_id", 3]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 10]]
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 6]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 9]]
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 7]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 7]]
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 8]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tip_votes"  WHERE "tip_votes"."tip_id" = $1[0m  [["tip_id", 5]]
+  [1m[35mTip Load (0.3ms)[0m  SELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1  [["breakout_id", 9]]
+  [1m[36mTip Load (0.2ms)[0m  [1mSELECT "tips".* FROM "tips"  WHERE "tips"."breakout_id" = $1[0m  [["breakout_id", 10]]
+Completed 200 OK in 52ms (Views: 32.8ms | ActiveRecord: 18.0ms)
