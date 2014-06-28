@@ -59,20 +59,27 @@ var TipCollectionView = Backbone.View.extend({
     });
 
     return this;
-  }
+  },
+
 });
 
+var destroyView = function(view) {
+    Backbone.View.prototype.remove.call(view);
+    view.unbind()
+}
 
-tips = new TipCollection();
-tips.fetch({ data: {breakout: 'none'} }).then(function() {
-  tips.save
+var createViewObjectAndView = function(model, dom) {
+  var view = new TipCollectionView({ collection: model, el : dom});
+  view.render();
+  return view
+}
 
-  tipCollectionView = new TipCollectionView({ collection: tips, el : $('ul.loose-tips')[0] });
 
-  tipCollectionView.render();
 
-  tips.models[0].set({content: 'different'});
-});
+
+
+
+
 
 
 

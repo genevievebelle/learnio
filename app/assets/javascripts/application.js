@@ -17,4 +17,7 @@
 //= require underscore
 //= require backbone
 //= require_tree ./templates
-//= require_tree .
+//= require_tree ./models
+//= require_tree ./views
+//= require_tree ./controller
+
