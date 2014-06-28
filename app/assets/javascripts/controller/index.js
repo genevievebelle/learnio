@@ -1,21 +1,23 @@
 
 var getLooseTips = function() {
-  looseTips = new TipCollection();
-  looseTipsView = new TipCollectionView({ collection: looseTips, el : $('ul.loose-tips')[0]});
-  looseTips.fetch({ data: {breakout: 'none'} } ).done(function() { resetLooseTipsView() });
+  var looseTips = new TipCollection();
+  var looseTipsView = new TipCollectionView({ collection: looseTips });
+  looseTips.fetch({ data: {breakout: 'none'} } ).done(function() {
+  resetLooseTipsView(looseTips);});
 };
 
-var resetLooseTipsView = function() {
-  looseTipsView = new TipCollectionView({ collection: looseTips, el : $('ul.loose-tips')[0]});
-  looseTipsView.render();
+var resetLooseTipsView = function(tips) {
+  var dom = $('ul.loose-tips')[0];
+  var looseTipsView = new TipCollectionView({ collection: tips, el : dom});
+  looseTipsView.render(dom);
 };
 
 getLooseTips();
 
 var getBreakoutColumns = function() {
   breakoutColumns = new BreakoutCollection();
-  breakoutColumnsView = new BreakoutCollectionView({ collection: breakoutColumns, el : $('ul.breakout-list')[0]});
-  breakoutColumns.fetch().done(function() { resetBreakoutColumnsView() });
+  breakoutColumnsView = new BreakoutCollectionView({ collection: breakoutColumns });
+  breakoutColumns.fetch().done(function() { resetBreakoutColumnsView(); });
 };
 
 var resetBreakoutColumnsView = function() {
@@ -25,7 +27,23 @@ var resetBreakoutColumnsView = function() {
 
 getBreakoutColumns();
 
+var getBreakoutTips = function(id) {
+  var breakoutTips = new TipCollection();
+  var breakoutTipsView = new TipCollectionView({collection: breakoutTips});
+  breakoutTips.fetch({ data: {breakout: id} } ).done( function() {
+    resetBreakoutTipsView(id, breakoutTips);
+  });
+};
 
+var resetBreakoutTipsView = function(id, tips) {
+  // var dom = $('.breakout-columns').find("#"+id)[0];
+  var dom = $("ul[groupid="+id+"]");
+  var view = new TipCollectionView( {
+    collection: tips,
+    el : dom
+  });
+  view.render(dom);
+};
 
 
 
