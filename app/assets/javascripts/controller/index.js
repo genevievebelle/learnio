@@ -1,13 +1,18 @@
-var getAndViewLooseTips = function() {
-  tips = new TipCollection();
-  tips.fetch({ data: {breakout: 'none'} }).then(function() {
-    tips.save
-    tipCollectionView = createViewObjectAndView(tips, $('ul.loose-tips')[0] );
-    tips.models[0].set({content: 'different'});
-  });
-  return tips
+var getLooseTips = function() {
+  looseTips = new TipCollection();
+  looseTipsView = new TipCollectionView({ collection: looseTips, el : $('ul.loose-tips')[0]});
+  looseTips.fetch({ data: {breakout: 'none'} } ).done(function() { looseTipsView.render(); });
+  looseTips.save
 }
 
+var resetLooseTipsView = function() {
+  looseTipsView = new TipCollectionView({ collection: looseTips, el : $('ul.loose-tips')[0]});
+  looseTipsView.render();
+}
 
-getAndViewLooseTips()
+getLooseTips()
+
+
+
+
 
