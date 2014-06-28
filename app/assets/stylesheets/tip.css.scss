@@ -2,3 +2,59 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.tips-container {
+  float: left;
+  width : 300px;
+  height : 1000px;
+  padding : 0;
+  margin: 0 10px 0 0;
+  border: 1px solid #A0A0A0;
+  padding: 0px 10px;
+  background: #FAFAFA;
+  list-style-type: none;
+  outline: none
+}
+
+.tips {
+  width : 280px;
+  margin: auto;
+  margin-top: 20px;
+  font-size : 20px;
+  list-style : none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.tips li {
+  margin: 10px 0;
+  padding: 10px;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #F7F7F7), color-stop(100%, #E8E8E8));
+  background: -webkit-linear-gradient(#F7F7F7, #E8E8E8);
+  background:    -moz-linear-gradient(#F7F7F7, #E8E8E8);
+  background:      -o-linear-gradient(#F7F7F7, #E8E8E8);
+  background:         linear-gradient(#F7F7F7, #E8E8E8);
+  border: 1px solid #C9C9C9;
+  background: #F0F0F0;
+  border-radius: 4px;   /* may need vendor varients */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.14);   /* may need vendor varients */
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.tips li.selected {
+  border: 1px solid #2659D9;
+  color: #FFF;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.8);
+  background: #678BE4;
+}
+
+.tips var.empty-list-caption {
+  color: #A0A0A0;
+  padding: 30px;
+  display: block;
+  text-align: center;
+  font-style: normal;
+  line-height: 1.45;
+}
+
+
+
