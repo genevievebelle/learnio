@@ -21,6 +21,7 @@ var BreakoutCollectionView = Backbone.View.extend({
   initialize : function() {
     _(this).bindAll('add', 'remove');
     this._breakoutViews = [];
+    this.collection.model.bind("change", this.render);
     this.collection.each(this.add);
     this.collection.bind('add', this.add);
     this.collection.bind('remove', this.remove);
@@ -47,16 +48,17 @@ var BreakoutCollectionView = Backbone.View.extend({
     if (this._rendered) $(viewToRemove.el).remove();
   },
 
-
   render : function() {
     this._rendered = true;
 
     $(this.el).empty();
 
-    _(this._breakoutViews).each(function(dv) {
-      this.$('ul.breakout-list').append(dv.render().el);
+    _(this._breakoutViews).each(function(bv) {
+      this.$('ul.breakout-list').append(bv.render().el);
+      this.$('.breakout-container').append("<div class='breakout-columns tips-container' dataid="+bv.model.attributes.id+"><ul class='tips' groupid="+bv.model.attributes.id+"></ul></div>");
+      getBreakoutTips(bv.model.attributes.id);
     });
-
+    setupDroppable();
     return this;
   },
 

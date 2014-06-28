@@ -51,14 +51,13 @@ var TipCollectionView = Backbone.View.extend({
     if (this._rendered) $(viewToRemove.el).remove();
   },
 
-
-  render : function() {
+  render : function(dom) {
     this._rendered = true;
-
     $(this.el).empty();
 
     _(this._tipViews).each(function(dv) {
-      this.$('ul.loose-tips').append(dv.render().el);
+      console.log(dv);
+      this.$(dom).append(dv.render().el);
     });
 
     return this;

@@ -1,7 +1,7 @@
 require 'factory_girl_rails'
 10.times { FactoryGirl.create :tip}
 10.times { FactoryGirl.create :user}
-10.times { FactoryGirl.create :breakout}
+3.times { FactoryGirl.create :breakout}
 
 Tip.all.each do |tip|
   User.all.each do |user|
