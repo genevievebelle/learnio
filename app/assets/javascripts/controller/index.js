@@ -12,12 +12,17 @@ var resetBreakoutColumnsView = function(breakoutColumns) {
 };
 
 var populateColumns = function(views) {
-  _(views).each(function(view) { getTips(view.model.attributes.id); });
+  _(views).each(function(view) { getTips(view.model.attributes.id) });
 }
 
 var getTips = function(id) {
   var tips = new TipCollection();
-  tips.fetch({data: {breakout: id}}).done( function() { resetTipsView(id, tips); });
+  tips.fetch({data: {breakout: id}}).done( function() {
+    columns[id] = tips
+    resetTipsView(id, tips);
+  });
+
+  return tips
 };
 
 var resetTipsView = function(id, tips) {
@@ -25,9 +30,17 @@ var resetTipsView = function(id, tips) {
   view.render(id);
 };
 
-getTips(LOOSETIPS)
+var setUpPage = function() {
 
-getBreakoutColumns();
+  columns = [];
+  getTips(LOOSETIPS);
+  getBreakoutColumns();
+
+}
+
+setUpPage()
+
+
 
 
 

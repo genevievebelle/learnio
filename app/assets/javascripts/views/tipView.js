@@ -28,7 +28,7 @@ var TipCollectionView = Backbone.View.extend({
     this.collection.each(this.add);
     this.collection.bind('add', this.add);
     this.collection.bind('remove', this.remove);
-    this.collection.bind('reset', this.render);
+    // this.collection.bind('reset', this.render);
   },
 
   add : function(tip) {
@@ -49,13 +49,14 @@ var TipCollectionView = Backbone.View.extend({
     var viewToRemove = _(this._tipViews).select(function(v) { return v.model === model; })[0];
     this._tipViews = _(this._tipViews).without(viewToRemove);
 
-    if (this._rendered) $(viewToRemove.el).remove();
+    if (this._rendered) { $(viewToRemove.el).remove(); }
+
   },
 
   render : function(id) {
     this._rendered = true;
     var dom = $("ul[groupid="+id+"]");
-    $(this.el).empty();
+    dom.empty();
 
     _(this._tipViews).each(function(dv) {
       this.$(dom).append(dv.render().el);
