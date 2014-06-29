@@ -1,49 +1,42 @@
-
-var getLooseTips = function() {
-  var looseTips = new TipCollection();
-  var looseTipsView = new TipCollectionView({ collection: looseTips });
-  looseTips.fetch({ data: {breakout: 'none'} } ).done(function() {
-  resetLooseTipsView(looseTips);});
-};
-
-var resetLooseTipsView = function(tips) {
-  var dom = $('ul.loose-tips')[0];
-  var looseTipsView = new TipCollectionView({ collection: tips, el : dom});
-  looseTipsView.render(dom);
-};
-
-getLooseTips();
+LOOSETIPS = 0
 
 var getBreakoutColumns = function() {
-  breakoutColumns = new BreakoutCollection();
-  breakoutColumnsView = new BreakoutCollectionView({ collection: breakoutColumns });
-  breakoutColumns.fetch().done(function() { resetBreakoutColumnsView(); });
+  var breakoutColumns = new BreakoutCollection();
+  breakoutColumns.fetch().done(function() { resetBreakoutColumnsView(breakoutColumns); });
 };
 
-var resetBreakoutColumnsView = function() {
-  breakoutColumnsView = new BreakoutCollectionView({ collection: breakoutColumns, el : $('ul.breakout-list')[0]});
+var resetBreakoutColumnsView = function(breakoutColumns) {
+  var breakoutColumnsView = new BreakoutCollectionView({ collection: breakoutColumns});
   breakoutColumnsView.render();
+  populateColumns(breakoutColumnsView._breakoutViews);
 };
+
+var populateColumns = function(views) {
+  _(views).each(function(view) { getTips(view.model.attributes.id); });
+}
+
+var getTips = function(id) {
+  var tips = new TipCollection();
+  tips.fetch({data: {breakout: id}}).done( function() { resetTipsView(id, tips); });
+};
+
+var resetTipsView = function(id, tips) {
+  var view = new TipCollectionView( { collection: tips});
+  view.render(id);
+};
+
+getTips(LOOSETIPS)
 
 getBreakoutColumns();
 
-var getBreakoutTips = function(id) {
-  var breakoutTips = new TipCollection();
-  var breakoutTipsView = new TipCollectionView({collection: breakoutTips});
-  breakoutTips.fetch({ data: {breakout: id} } ).done( function() {
-    resetBreakoutTipsView(id, breakoutTips);
-  });
-};
 
-var resetBreakoutTipsView = function(id, tips) {
-  // var dom = $('.breakout-columns').find("#"+id)[0];
-  var dom = $("ul[groupid="+id+"]");
-  var view = new TipCollectionView( {
-    collection: tips,
-    el : dom
-  });
-  view.render(dom);
-};
+
+
+
+
+
+
+
 
 
 

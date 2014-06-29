@@ -3,11 +3,11 @@ var TipView = Backbone.View.extend({
   className: "tip",
 
   render: function() {
-    this.el.innerHTML = this.model.get("content") + ", votes: " + this.model.get("vote_count");
+    this.el.innerHTML = this.model.get("content") +
+     "<br>votes: " + this.model.get("vote_count");
     this.el.id = this.model.get("id");
     $(this.el).draggable( {
       containment: 'document',
-      snap: true,
       snapMode: 'inner'
       } );
     return this;
@@ -28,6 +28,7 @@ var TipCollectionView = Backbone.View.extend({
     this.collection.each(this.add);
     this.collection.bind('add', this.add);
     this.collection.bind('remove', this.remove);
+    this.collection.bind('reset', this.render);
   },
 
   add : function(tip) {
@@ -51,12 +52,12 @@ var TipCollectionView = Backbone.View.extend({
     if (this._rendered) $(viewToRemove.el).remove();
   },
 
-  render : function(dom) {
+  render : function(id) {
     this._rendered = true;
+    var dom = $("ul[groupid="+id+"]");
     $(this.el).empty();
 
     _(this._tipViews).each(function(dv) {
-      console.log(dv);
       this.$(dom).append(dv.render().el);
     });
 

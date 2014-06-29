@@ -15,11 +15,3 @@
  *= require_self
  */
 
-
-body {
-  font-family: 'Ubuntu', sans-serif;
-}
-
-.home-container {
-  margin: 10px;
-}
