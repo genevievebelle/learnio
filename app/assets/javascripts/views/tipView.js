@@ -51,8 +51,9 @@ var TipCollectionView = Backbone.View.extend({
     if (this._rendered) $(viewToRemove.el).remove();
   },
 
-  render : function(dom) {
+  render : function(id) {
     this._rendered = true;
+    var dom = $("ul[groupid="+id+"]");
     $(this.el).empty();
 
     _(this._tipViews).each(function(dv) {
