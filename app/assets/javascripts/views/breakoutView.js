@@ -53,13 +53,12 @@ var BreakoutCollectionView = Backbone.View.extend({
     this._rendered = true;
 
     $(this.el).empty();
-
     _(this._breakoutViews).each(function(bv) {
       this.$('ul.breakout-list').append(bv.render().el);
       this.$('.breakout-container').append("<div class='breakout-columns tips-container' dataid="+bv.model.attributes.id+"><ul class='tips' groupid="+bv.model.attributes.id+"></ul></div>");
-      getBreakoutTips(bv.model.attributes.id);
     });
     setupDroppable();
+
     return this;
   },
 

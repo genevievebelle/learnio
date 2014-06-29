@@ -56,7 +56,6 @@ var TipCollectionView = Backbone.View.extend({
     $(this.el).empty();
 
     _(this._tipViews).each(function(dv) {
-      console.log(dv);
       this.$(dom).append(dv.render().el);
     });
 
