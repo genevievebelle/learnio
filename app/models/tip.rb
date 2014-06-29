@@ -7,7 +7,7 @@ class Tip < ActiveRecord::Base
   belongs_to :user
 
   def self.get_loose_tips
-    Tip.where(breakout_id: nil)
+    Tip.where(breakout_id: 0)
   end
 
 end

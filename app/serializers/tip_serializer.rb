@@ -1,5 +1,5 @@
 class TipSerializer < ActiveModel::Serializer
-  attributes :id, :content, :vote_count #, :vote_status
+  attributes :id, :content, :vote_count, :breakout_id #, :vote_status
 
   def vote_count
     object.tip_votes.count

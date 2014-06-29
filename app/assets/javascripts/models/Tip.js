@@ -4,7 +4,8 @@ var Tip = Backbone.Model.extend({
     defaults: {
       id: 0,
       content: 'Default content',
-      vote_count: 0
+      vote_count: 0,
+      breakout_id: 0
     }
 });
 
