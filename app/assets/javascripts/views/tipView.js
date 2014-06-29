@@ -3,7 +3,8 @@ var TipView = Backbone.View.extend({
   className: "tip",
 
   render: function() {
-    this.el.innerHTML = this.model.get("content") + ", votes: " + this.model.get("vote_count");
+    this.el.innerHTML = this.model.get("content") +
+     "<br>votes: " + this.model.get("vote_count");
     this.el.id = this.model.get("id");
     $(this.el).draggable( {
       containment: 'document',

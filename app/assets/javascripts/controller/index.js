@@ -12,7 +12,6 @@ var resetBreakoutColumnsView = function(breakoutColumns) {
 };
 
 var populateColumns = function(views) {
-
   _(views).each(function(view) { getTips(view.model.attributes.id); });
 }
 
