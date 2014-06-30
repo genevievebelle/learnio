@@ -26,19 +26,17 @@ var getTips = function(id) {
 };
 
 var resetTipsView = function(id, tips) {
-  var view = new TipCollectionView( { collection: tips});
-  view.render(id);
+  var view = new TipCollectionView( { collection: tips, el : $("ul[groupid="+id+"]") });
+  view.render();
 };
 
 var setUpPage = function() {
-
   columns = [];
   getTips(LOOSETIPS);
   getBreakoutColumns();
-
 }
 
-setUpPage()
+setUpPage();
 
 
 
