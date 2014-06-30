@@ -1,6 +1,6 @@
 var BreakoutView = Backbone.View.extend({
   tagName: "div",
-  className: "breakout",
+  className: "breakout-container",
 
   render: function() {
     this.el.id = this.model.get("id");
@@ -8,7 +8,7 @@ var BreakoutView = Backbone.View.extend({
         tips-container' dataid="+this.model.attributes.id+">"+
         "<div class='column-header'>"+this.model.get("title")+
         "<br>total votes " + this.model.get("sum_tip_votes")+"</div>"+
-        "<ul class='tips' groupid="+this.model.attributes.id+"></ul></li>"
+        "<ul class='tips' groupid="+this.el.id+"></ul></li>"
 
     return this;
   }
@@ -55,11 +55,10 @@ var BreakoutCollectionView = Backbone.View.extend({
 
   render : function() {
     this._rendered = true;
-
-    $(this.el).empty();
+    this.$('.breakout-container').empty();
     _(this._breakoutViews).each(function(bv) {
       this.$('.breakout-container').append(bv.render().el.innerHTML);
-    });
+      });
     setupDroppable();
 
     return this;
